@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday</title>
+
+<style>
+body{
+background:#ffd6e7;
+font-family:Arial;
+text-align:center;
+padding-top:80px;
+}
+
+button{
+padding:15px 25px;
+font-size:18px;
+background:#ff4d88;
+color:white;
+border:none;
+border-radius:10px;
+}
+
+img{
+width:250px;
+border-radius:20px;
+margin-top:20px;
+}
+
+#main{
+display:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Tap the screen 💖</h2>
+
+<button onclick="openPage()">Tap Here</button>
+
+<div id="main">
+
+<h1>Happy Birthday Sanchii 🎂</h1>
+
+<img src="https://i.imgur.com/4AiXzf8.jpeg">
+
+<br><br>
+
+<button onclick="showLetter()">Open Birthday Letter 💌</button>
+
+<p id="letter"></p>
+
+</div>
+
+<script>
+
+function openPage(){
+document.getElementById("main").style.display="block";
+}
+
+function showLetter(){
+document.getElementById("letter").innerHTML =
+"You are one of the most special people in my life. I hope your birthday is full of happiness, smiles and beautiful memories. Happy Birthday ❤️";
+}
+
+</script>
+
+</body>
+</html>
+Source:Main
+Folder:/root
